@@ -7,7 +7,12 @@
 </div>
 
 ## Microgravity Simulation Computer Model
-This project is a Python-based computer model that predicts the acceleration vector of a sample in a 3D clinostat, which assists scientists in determining the combination of inner and outer frame velocities that produce the best microgravity simulation.
+
+<div align="center">
+  <img src="../Images/Accel_Vector.png" alt="CAD Model" style="max-width: 100%; height: auto;">
+</div>
+
+This is a Python-based computer model that predicts the acceleration vector of a sample in a 3D clinostat, assisting scientists in determining the combination of inner and outer frame velocities that produce the best microgravity simulation.
 
 ## Built With
 
