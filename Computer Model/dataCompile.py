@@ -203,11 +203,11 @@ class DataProcessor:
         else:
             graphPath = PathVisualization(self.inName, self.x, self.y, self.z, saveFile=self.outPath + self.inName)
         
-        graphPath.createPathShadowFig(mode='save', legend=False)
+        graphPath.createPathShadowFig(mode='show', legend=False)
 
-        graphPath.createVectorFig(self.time, mode='save')
-        graphPath.createTimeAvgFig(xTimeAvg, yTimeAvg, zTimeAvg, self.time, mode='save')
-        graphPath.createMagFig(magnitude, self.time, mode='save')
+        graphPath.createVectorFig(self.time, mode='show')
+        graphPath.createTimeAvgFig(xTimeAvg, yTimeAvg, zTimeAvg, self.time, mode='show')
+        graphPath.createMagFig(magnitude, self.time, mode='show')
         
     def createSegGraphs(self):
         self.__getVectors()
@@ -219,7 +219,7 @@ class DataProcessor:
             comparePaths = PathVisualization(self.inName, xSeg, ySeg, zSeg, saveFile=self.outPath + self.inName[:len(self.inName)-4] + '-Segment')
         else: 
             comparePaths = PathVisualization(self.inName, xSeg, ySeg, zSeg, saveFile=self.outPath + self.inName + '-Segment')
-        comparePaths.createPathFig(mode='save')
+        comparePaths.createPathFig(mode='show')
 
 if __name__ == "__main__":
     process = DataProcessor()
