@@ -7,4 +7,6 @@
 </div>
 
 ## 3D Clinostat Files
-This repository contains the files related to my work on 3D clinostats during my internship at NASA Kennedy Space Center.
+From January to May 2025, I worked on 3D clinostats in the Microgravity Simulation Support Facility at NASA Kennedy Space Center. All related code is stored in this repository.
+
+
