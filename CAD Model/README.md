@@ -2,14 +2,14 @@
 <br />
 <div align="center">
   <a href="https://public.ksc.nasa.gov/partnerships/capabilities-and-testing/testing-and-labs/microgravity-simulation-support-facility/">
-    <img src="../images/logo.png" alt="Logo" width="375" height="187.5">
+    <img src="../Images/logo.png" alt="Logo" width="375" height="187.5">
   </a>
 </div>
 
 ## CAD Model of 3D Clinostat
 
 <div align="center">
-  <img src="../images/CAD_Model.png" alt="CAD Model A" width="810.5" height="586.5">
+  <img src="../Images/CAD_Model.png" alt="CAD Model A" width="810.5" height="586.5">
 </div>
 
 Fusion 360 was used to generate the designs for the 3D clinostat v2 (A), and the sample holders (B-D) that
